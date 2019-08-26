@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # actc
 
 > A Vue.js project
@@ -28,3 +29,7 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# ActcFront
+actc前端项目
+>>>>>>> ab770ba4d7ff27c05ef3b0940cb862dce97c26a0
