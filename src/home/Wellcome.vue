@@ -4,10 +4,10 @@
         <div class="content">
           <div class="c-title">wellcome to our actc</div>
           <div class="c-content">everyone can take charge</div>
-          <div class="c-img3"><img src="../assets/img/wellcomeimg/wheat.png" alt=""></div>
-          <div class="c-img4"><img src="../assets/img/wellcomeimg/wheat-bottom.png" alt=""></div>
-          <div class="c-img1"><img src="../assets/img/wellcomeimg/线.png" alt=""></div>
-          <div class="c-img1"><img src="../assets/img/wellcomeimg/线.png" alt=""></div>
+          <div class="c-img3"><img src="../../static/img/wellcomeimg/wheat.png" alt=""></div>
+          <div class="c-img4"><img src="../../static/img/wellcomeimg/wheat-bottom.png" alt=""></div>
+          <div class="c-img1"><img src="../../static/img/wellcomeimg/线.png" alt=""></div>
+          <div class="c-img1"><img src="../../static/img/wellcomeimg/线.png" alt=""></div>
           <div class="c-img2">|</div>
           <div class="toIndex" @click="toIndex">===>跳过动画，立即前往！</div>
         </div>
@@ -17,16 +17,16 @@
         <transition name="unknownFood1">
           <div class="unknownFood1"></div>
         </transition>
-        <div class="lemon"><img src="../assets/img/wellcomeimg/柠檬.png" alt=""></div>
-        <div class="unknownFood2"><img src="../assets/img/wellcomeimg/不知名食材2.png" alt=""></div>
-        <div class="unknownFood3"><img src="../assets/img/wellcomeimg/不知名食材3.png" alt=""></div>
-        <div class="chili"><img src="../assets/img/wellcomeimg/辣椒粉.png" alt=""></div>
-        <div class="ziran"><img src="../assets/img/wellcomeimg/孜然.png" alt=""></div>
-        <div class="cinnamon"><img src="../assets/img/wellcomeimg/桂皮.png" alt=""></div>
-        <div class="chili2"><img src="../assets/img/wellcomeimg/辣椒粉2.png" alt=""></div>
-        <div class="materials"><img src="../assets/img/wellcomeimg/几种食材.png" alt=""></div>
-        <div class="chili3"><img src="../assets/img/wellcomeimg/辣椒.png" alt=""></div>
-        <div class="anise"><img src="../assets/img/wellcomeimg/八角.png" alt=""></div>
+        <div class="lemon"><img src="../../static/img/wellcomeimg/柠檬.png" alt=""></div>
+        <div class="unknownFood2"><img src="../../static/img/wellcomeimg/不知名食材2.png" alt=""></div>
+        <div class="unknownFood3"><img src="../../static/img/wellcomeimg/不知名食材3.png" alt=""></div>
+        <div class="chili"><img src="../../static/img/wellcomeimg/辣椒粉.png" alt=""></div>
+        <div class="ziran"><img src="../../static/img/wellcomeimg/孜然.png" alt=""></div>
+        <div class="cinnamon"><img src="../../static/img/wellcomeimg/桂皮.png" alt=""></div>
+        <div class="chili2"><img src="../../static/img/wellcomeimg/辣椒粉2.png" alt=""></div>
+        <div class="materials"><img src="../../static/img/wellcomeimg/几种食材.png" alt=""></div>
+        <div class="chili3"><img src="../../static/img/wellcomeimg/辣椒.png" alt=""></div>
+        <div class="anise"><img src="../../static/img/wellcomeimg/八角.png" alt=""></div>
       </div>
       <router-view>
       </router-view>
@@ -240,7 +240,7 @@ export default {
     left: -300px;
     width: 330px;
     height: 425px;
-    background: url("../assets/img/wellcomeimg/不知道什么食材1.png") no-repeat;
+    background: url("../../static/img/wellcomeimg/不知道什么食材1.png") no-repeat;
     background-size: contain;
     opacity: 0;
   }
@@ -250,7 +250,7 @@ export default {
     left: 190px;
     width: 300px;
     height: 185px;
-    background: url("../assets/img/wellcomeimg/西红柿.png") no-repeat;
+    background: url("../../static/img/wellcomeimg/西红柿.png") no-repeat;
     background-size: contain;
     opacity: 0;
   }
